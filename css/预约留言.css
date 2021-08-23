@@ -1,0 +1,148 @@
+.banner2 {
+	width: 1600px;
+	height: 340px;
+	position: relative;
+	margin: 0 auto;
+	background: url(../img/banner1.jpg) no-repeat center center/1600px;
+}
+
+.banner2 p {
+	width: 160px;
+	height: 50px;
+	border: 3px solid #fff;
+	position: absolute;
+	left: 696px;
+	top: 160px;
+	animation: logo 0.5s linear 1;
+	color: #fff;
+	font-size: 23px;
+	text-align: center;
+	line-height: 50px;
+	font-weight: bold;
+}
+
+main {
+	width: 1600px;
+	position: relative;
+	margin: 0 auto;
+	margin-bottom: 80px;
+}
+
+main .weizhi {
+	height: 40px;
+	border-bottom: 2px solid #AA354F;
+	padding-left: 280px;
+	line-height: 40px;
+}
+
+main .weizhi a {
+	text-decoration: none;
+	color: #000;
+}
+
+main .weizhi a:hover {
+	color: #AA354F;
+	text-decoration: underline;
+}
+
+main .order {
+	width: 1600px;
+	position: relative;
+	margin: 50px auto;
+	font-family: "方正姚体";
+}
+
+main .order .p111 {
+	width: 200px;
+	height: 80px;
+	font-size: 38px;
+	background: url(../img/边框6-2.jpg) no-repeat bottom center/100%;
+	margin: 0 auto;
+	line-height: 60px;
+	text-align: center;
+	font-weight: bold;
+	color: #bd6200;
+	padding-bottom: 2px;
+}
+
+main .order h1 {
+	font-family: "华文行楷";
+	font-size: 50px;
+	text-align: center;
+	color: #ffe99a;
+}
+
+main .order form {
+	width: 1000px;
+	height: 550px;
+	margin: 0px auto;
+	padding: 20px;
+	color: #404040;
+	line-height: 61px;
+}
+
+main .order form fieldset {
+	width: 650px;
+	height: 530px;
+	border: 6px solid #ffe99a;
+	padding: 10px 100px;
+	margin: 0px auto;
+}
+
+main .order form fieldset legend {
+	font-weight: bold;
+	font-size: 23px;
+	color: #ffa200;
+}
+
+main .order form input {
+	width: 560px;
+	height: 38px;
+	border: 2px solid #e9ba98;
+	border-radius: 5px;
+	font-size: 16px;
+}
+
+main .order form textarea {
+	vertical-align: middle;
+	border: 2px solid #e9ba98;
+	border-radius: 5px;
+}
+
+main .order form .radio {
+	width: 20px;
+	height: 13px;
+}
+
+main .order form .submit {
+	margin-left: 80px;
+	height: 45px;
+	font-size: 18px;
+	color: #fff;
+	background: #ff7c3b;
+	border: none;
+}
+
+main .order form .submit:hover {
+	background: #FF4800;
+}
+
+.qiqiu {
+	width: 200px;
+	height: 200px;
+	float: right;
+	animation: img6 1s linear 1;
+	position: absolute;
+	left: 1300px;
+	top: 200px;
+}
+
+@keyframes img6 {
+	from {
+		transform: translate(400px);
+	}
+
+	to {
+		transform: translate(0px);
+	}
+}

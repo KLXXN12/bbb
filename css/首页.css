@@ -1,0 +1,780 @@
+.banner {
+	width: 1600px;
+	height: 625px;
+	background: url(../img/banner6.jpg) no-repeat center center/1600px #F8EFF1;
+	overflow: hidden;
+	margin: 0 auto;
+	position: relative;
+}
+
+.banner p {
+	width: 446px;
+	height: 346px;
+	position: absolute;
+	left: 550px;
+	top: 150px;
+	color: #fff;
+	font-size: 40px;
+	border: 5px solid #fff;
+	font-weight: bolder;
+	line-height: 70px;
+	margin: 0 auto;
+	padding: 2px;
+	animation: banner 0.5s linear 1;
+}
+
+/*body:hover .banner p{opacity: 1; transition: all 1s;animation: banner 0.5s linear 1;}*/
+@keyframes banner {
+	0% {
+		transform: rotateZ(3deg);
+		opacity: 0;
+	}
+
+	50% {
+		transform: rotateZ(-3deg);
+	}
+
+	100% {
+		transform: rotateZ(3deg);
+		opacity: 1;
+	}
+}
+
+.banner .span1 {
+	font-size: 55px;
+}
+
+.banner a {
+	display: inline-block;
+	width: 180px;
+	height: 40px;
+	line-height: 40px;
+	font-size: 16px;
+	font-weight: normal;
+	border: 2px solid #D04362;
+	text-decoration: none;
+	color: #fff;
+	text-align: center;
+	margin: 40px 40px 40px 130px;
+}
+
+.banner a:hover {
+	background: #D04362;
+	color: #fff;
+	transition: all 0.5s;
+	border: 2px solid #fff;
+}
+
+main {
+	width: 1600px;
+	margin: 0 auto;
+	position: relative;
+}
+
+main .Wedding-Series {
+	width: 1600px;
+	height: 1150px;
+	margin: 0px auto;
+	margin-top: 40px;
+	position: relative;
+	padding-top: 10px;
+	background: url(../img/bg2.jpg) no-repeat 1000px 230px/320px #fff;
+	font-family: "方正姚体";
+}
+
+main .Wedding-Series p:nth-child(1) {
+	width: 200px;
+	height: 80px;
+	font-size: 38px;
+	background: url(../img/边框6-2.jpg) no-repeat bottom center/100%;
+	margin: 0 auto;
+	line-height: 60px;
+	text-align: center;
+	font-weight: bold;
+	color: #D04362;
+	padding-bottom: 2px;
+}
+
+main .Wedding-Series .abox {
+	width: 1200px;
+	height: 50px;
+	margin: 30px 200px;
+}
+
+main .Wedding-Series .abox a {
+	display: block;
+	width: 160px;
+	height: 40px;
+	text-decoration: none;
+	float: left;
+	text-align: center;
+	line-height: 40px;
+	border: 5px double #e77b93;
+	margin-left: 102px;
+	color: #e77b93;
+	font-size: 20px;
+}
+
+main .Wedding-Series .abox a:hover {
+	background: #e77b93;
+	color: #fff;
+	border: 5px double #fff;
+	transition: all 0.5s;
+}
+
+main .Wedding-Series table {
+	width: 1200px;
+	height: 880px;
+	position: absolute;
+	left: 200px;
+	top: 270px;
+	border-collapse: collapse;
+}
+
+main .Wedding-Series table tr td {
+	width: 1200px;
+}
+
+main .Wedding-Series table a {
+	display: block;
+	float: left;
+	margin-left: 10px;
+}
+
+main .Wedding-Series table a span {
+	display: none;
+}
+
+main .Wedding-Series table a:hover span {
+	display: inline-block;
+	background: rgba(255, 255, 255, 0.5);
+	font-size: 30px;
+	text-align: center;
+	color: #D04362;
+}
+
+main .Wedding-Series table .aa1 {
+	position: absolute;
+	left: 0px;
+	top: 10px;
+}
+
+main .Wedding-Series table .aa1 img {
+	width: 300px;
+	height: 420px;
+}
+
+/*凑数图片完成*/
+main .Wedding-Series table .aa2 {
+	position: absolute;
+	left: 310px;
+	top: 10px;
+}
+
+main .Wedding-Series table .aa2 img {
+	width: 400px;
+	height: 420px;
+}
+
+main .Wedding-Series table .aa2:hover img {
+	transform: translateY(-20px);
+	transition: all 0.5s;
+}
+
+main .Wedding-Series table .aa2:hover span {
+	display: inline-block;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 400px;
+	height: 420px;
+	z-index: 2;
+	line-height: 420px;
+}
+
+main .Wedding-Series table .aa2:hover span:hover {
+	position: absolute;
+	left: 0px;
+	top: -20px;
+	transition: all 0.5s;
+}
+
+/*特惠套系图片完成*/
+main .Wedding-Series table .aa3 {
+	position: absolute;
+	left: 720px;
+	top: 150px;
+}
+
+main .Wedding-Series table .aa3 img {
+	width: 460px;
+	height: 280px;
+}
+
+main .Wedding-Series table .aa3:hover img {
+	transform: translateY(-20px);
+	transition: all 0.5s;
+}
+
+main .Wedding-Series table .aa3:hover span {
+	display: inline-block;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 460px;
+	height: 280px;
+	z-index: 2;
+	line-height: 280px;
+}
+
+main .Wedding-Series table .aa3:hover span:hover {
+	position: absolute;
+	left: 0px;
+	top: -20px;
+	transition: all 0.5s;
+}
+
+/*明场套系图片完成*/
+main .Wedding-Series table .aa4 {
+	position: absolute;
+	left: 0px;
+	top: 440px;
+}
+
+main .Wedding-Series table .aa4 img {
+	width: 380px;
+	height: 280px;
+}
+
+/*凑数图片完成*/
+main .Wedding-Series table .aa5 {
+	position: absolute;
+	left: 390px;
+	top: 440px;
+}
+
+main .Wedding-Series table .aa5 img {
+	width: 380px;
+	height: 430px;
+}
+
+main .Wedding-Series table .aa5:hover img {
+	transform: translateY(20px);
+	transition: all 0.5s;
+}
+
+main .Wedding-Series table .aa5:hover span {
+	display: inline-block;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 380px;
+	height: 430px;
+	z-index: 2;
+	line-height: 450px;
+}
+
+main .Wedding-Series table .aa5:hover span:hover {
+	position: absolute;
+	left: 0px;
+	top: 20px;
+	transition: all 0.5s;
+}
+
+/*暗场套系图片完成*/
+main .Wedding-Series table .aa6 {
+	position: absolute;
+	left: 780px;
+	top: 440px;
+}
+
+main .Wedding-Series table .aa6 img {
+	width: 360px;
+	height: 220px;
+}
+
+main .Wedding-Series table .aa6:hover img {
+	transform: translateY(20px);
+	transition: all 0.5s;
+}
+
+main .Wedding-Series table .aa6:hover span {
+	display: inline-block;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 360px;
+	height: 220px;
+	z-index: 2;
+	line-height: 220px;
+}
+
+main .Wedding-Series table .aa6:hover span:hover {
+	position: absolute;
+	left: 0px;
+	top: 20px;
+	transition: all 0.5s;
+}
+
+/*定制套系图片完成*/
+main .Case-Show {
+	width: 1600px;
+	height: 550px;
+	margin: 0 auto;
+	position: relative;
+	background: url(../img/bg3.jpg) no-repeat #e77b93;
+	font-family: "方正姚体";
+	padding-top: 180px;
+}
+
+main .Case-Show p:nth-child(1) {
+	width: 200px;
+	height: 80px;
+	font-size: 38px;
+	background: url(../img/边框6-3.jpg) no-repeat bottom center/100%;
+	margin: 0 auto;
+	line-height: 60px;
+	text-align: center;
+	font-weight: bold;
+	color: #fff;
+	padding-bottom: 2px;
+}
+
+main .Case-Show li {
+	width: 320px;
+	height: 250px;
+	border: 2px solid #fff;
+	padding: 10px;
+	margin: 20px 10px 10px 0px;
+	position: relative;
+	left: 0;
+	top: 0px;
+	float: left;
+}
+
+main .Case-Show li:nth-child(1) {
+	background: url(../img/套系5.jpg) no-repeat center center/320px 250px content-box;
+	margin-left: 96px;
+}
+
+main .Case-Show li:nth-child(1):hover {
+	background: url(../img/套系5-1.jpg) no-repeat center center/320px 250px content-box;
+	transition: all 0.5s;
+}
+
+main .Case-Show li:nth-child(2) {
+	background: url(../img/套系6.jpg) no-repeat center center/320px 250px content-box;
+}
+
+main .Case-Show li:nth-child(2):hover {
+	background: url(../img/套系6-1.jpg) no-repeat center center/320px 250px content-box;
+	transition: all 0.5s;
+}
+
+main .Case-Show li:nth-child(3) {
+	background: url(../img/套系4.jpg) no-repeat center center/320px 250px content-box;
+}
+
+main .Case-Show li:nth-child(3):hover {
+	background: url(../img/套系4-1.jpg) no-repeat center center/320px 250px content-box;
+	transition: all 0.5s;
+}
+
+main .Case-Show li:nth-child(4) {
+	background: url(../img/套系8.jpg) no-repeat center center/320px 250px content-box;
+}
+
+main .Case-Show li:nth-child(4):hover {
+	background: url(../img/套系8-1.jpg) no-repeat center center/320px 250px content-box;
+	transition: all 0.5s;
+}
+
+main .Case-Show a {
+	display: inline-block;
+	width: 180px;
+	height: 40px;
+	font-size: 20px;
+	text-align: center;
+	color: #fff;
+	margin-left: 712px;
+	margin-top: 30px;
+	text-decoration: none;
+	border: 2px solid #fff;
+	line-height: 40px;
+	font-family: "华文楷体";
+}
+
+main .Case-Show a:hover {
+	background: #fff;
+	color: #D04362;
+	transition: all 0.5s;
+	border: 2px solid #D04362;
+}
+
+main .Wedding-Planning {
+	width: 1170px;
+	height: 620px;
+	margin: 90px auto;
+	padding: 15px;
+	background: url(../img/边框3.jpg) no-repeat;
+	font-family: "方正姚体";
+}
+
+main .Wedding-Planning p {
+	width: 200px;
+	height: 80px;
+	font-size: 38px;
+	background: url(../img/边框6.jpg) no-repeat bottom center/100%;
+	margin: 0 auto;
+	line-height: 60px;
+	text-align: center;
+	font-weight: bold;
+	color: #fff;
+	padding-bottom: 2px;
+}
+
+main .Wedding-Planning h4,
+main .Wedding-Series h4,
+main .Case-Show h4,
+main .special-promotion h4,
+main .Service-Process h4 {
+	text-align: center;
+	margin-top: 10px;
+	font-weight: normal;
+	color: #666;
+	font-size: 18px;
+}
+
+main .content {
+	width: 1050px;
+	height: 30px;
+	background: #fff;
+	position: absolute;
+	margin: 15px 30px 50px 30px;
+	padding: 30px;
+	opacity: 0.7;
+}
+
+main .content p {
+	width: 280px;
+	height: 80px;
+	float: left;
+	margin-left: 120px;
+	padding: 30px;
+	background: url(../img/边框9.jpg) no-repeat #fae1e6;
+	font-size: 18px;
+	line-height: 20px;
+	margin-top: 40px;
+	font-weight: normal;
+	border-radius: 30px;
+	border: 2px solid #D04362;
+	color: #000;
+	opacity: 1;
+}
+
+main .content p span {
+	display: inline-block;
+	font-size: 25px;
+	margin-bottom: 10px;
+}
+
+main .special-promotion {
+	width: 1600px;
+	height: 960px;
+	margin: 50px auto;
+	position: relative;
+	font-family: "方正姚体";
+}
+
+main .special-promotion .pp {
+	width: 200px;
+	height: 80px;
+	font-size: 38px;
+	background: url(../img/边框6-2.jpg) no-repeat bottom center/200px;
+	margin: 0 auto;
+	line-height: 60px;
+	text-align: center;
+	font-weight: bold;
+	color: #D04362;
+	padding-bottom: 2px;
+}
+
+main .special-promotion .content3 {
+	width: 1220px;
+	margin: 0 auto;
+	padding-top: 20px;
+	background: none;
+}
+
+main .special-promotion .content3 img {
+	width: 600px;
+	height: 400px;
+}
+
+main .special-promotion .content3 img:hover {
+	width: 600px;
+	height: 400px;
+	animation: img2 2s linear 1;
+}
+
+@keyframes img2 {
+	0% {
+		transform: rotateZ(0deg);
+	}
+
+	20% {
+		transform: rotateZ(0deg);
+	}
+
+	30% {
+		transform: rotateZ(0deg);
+	}
+
+	35% {
+		transform: rotateZ(2deg);
+	}
+
+	40% {
+		transform: rotateZ(-2deg);
+	}
+
+	45% {
+		transform: rotateZ(2deg);
+	}
+
+	50% {
+		transform: rotateZ(0deg);
+	}
+
+	80% {
+		transform: rotateZ(0deg);
+	}
+
+	100% {
+		transform: rotateZ(0deg);
+	}
+}
+
+main .special-promotion .content3 p {
+	width: 600px;
+	height: 400px;
+}
+
+main .special-promotion .content3 p:nth-child(1) {
+	position: absolute;
+	left: 190px;
+	top: 140px;
+}
+
+main .special-promotion .content3 p:nth-child(2) {
+	width: 540px;
+	height: 260px;
+	position: absolute;
+	left: 810px;
+	top: 140px;
+	background: #f27d8d;
+	padding: 70px 30px;
+}
+
+main .special-promotion .content3 p:nth-child(3) {
+	width: 540px;
+	height: 260px;
+	position: absolute;
+	left: 190px;
+	top: 560px;
+	background: #74bde0;
+	padding: 70px 30px;
+}
+
+main .special-promotion .content3 p:nth-child(4) {
+	position: absolute;
+	left: 810px;
+	top: 560px;
+}
+
+main .special-promotion .content3 span {
+	line-height: 25px;
+	color: #fff;
+	padding-left: 30px;
+	font-size: 16px;
+}
+
+main .special-promotion .content3 span:nth-child(1) {
+	font-family: "华文楷体";
+	font-size: 18px;
+}
+
+main .special-promotion .content3 span:nth-child(3) {
+	font-size: 28px;
+	line-height: 95px;
+}
+
+main .special-promotion .content3 a {
+	display: block;
+	width: 80px;
+	height: 26px;
+	border: 1px solid #fff;
+	color: #fff;
+	line-height: 26px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 16px;
+	margin-left: 30px;
+	margin-top: 30px;
+}
+
+main .special-promotion .content3 a:hover {
+	background: #fff;
+	color: #D04362;
+	transition: all 0.5s;
+}
+
+main .About-Us {
+	width: 1600px;
+	height: 570px;
+	background: url(../img/banner4-5.jpg) no-repeat center center/1600px;
+	margin: 80px auto;
+	position: relative;
+}
+
+main .About-Us .imgbox {
+	width: 440px;
+	height: 390px;
+	background: #fff;
+	color: #fff;
+	position: absolute;
+	left: 230px;
+	top: 70px;
+	padding: 20px;
+	perspective: 1000px;
+}
+
+main .About-Us .imgbox p {
+	width: 440px;
+	height: 390px;
+}
+
+main .About-Us .imgbox img {
+	width: 440px;
+	height: 390px;
+	position: absolute;
+	left: 20px;
+	top: 20px;
+	transition: all 3s;
+}
+
+.imgg2 {
+	backface-visibility: hidden;
+}
+
+.img1 {
+	transform: rotateY(180deg);
+}
+
+.imgbox:hover .imgg2 {
+	transform: rotateY(180deg);
+}
+
+.imgbox:hover .imgg1 {
+	transform: rotateY(180deg);
+}
+
+main .About-Us .content2 {
+	width: 540px;
+	height: 450px;
+	color: #fff;
+	position: absolute;
+	right: 200px;
+	top: 55px;
+	line-height: 38px;
+	font-size: 21px;
+	font-family: "华文楷体";
+	font-weight: bold;
+}
+
+main .About-Us .content2 p {
+	width: 9px;
+	height: 160px;
+	float: right;
+	background: #D04362;
+}
+
+main .About-Us .content2 .span2 {
+	display: inline-block;
+	width: 520px;
+	height: 35px;
+	font-size: 38px;
+	text-align: right;
+}
+
+main .About-Us .content2 .span3 {
+	display: inline-block;
+	width: 515px;
+	height: 32px;
+	font-size: 25px;
+	text-align: right;
+	color: #ccc;
+	padding-right: 5px;
+}
+
+main .About-Us .content2 a {
+	display: inline-block;
+	width: 180px;
+	height: 40px;
+	font-size: 20px;
+	text-align: center;
+	color: #fff;
+	margin-left: 177px;
+	margin-top: 30px;
+	text-decoration: none;
+	border: 2px solid #D04362;
+	line-height: 40px;
+}
+
+main .About-Us .content2 a:hover {
+	background: #D04362;
+	color: #fff;
+	transition: all 0.5s;
+	border: 2px solid #fff;
+}
+
+main .Service-Process {
+	width: 1600px;
+	height: 242px;
+	margin: 0px auto;
+	position: relative;
+	font-family: "方正姚体";
+	background: url(../img/bg5.jpg) no-repeat right bottom/230px;
+	padding-bottom: 100px;
+}
+
+main .Service-Process p {
+	width: 200px;
+	height: 80px;
+	font-size: 38px;
+	background: url(../img/边框6-2.jpg) no-repeat bottom center/100%;
+	margin: 0 auto;
+	line-height: 60px;
+	text-align: center;
+	font-weight: bold;
+	color: #D04362;
+	padding-bottom: 2px;
+}
+
+main .Service-Process ul {
+	width: 1200px;
+	height: 100px;
+	margin: 30px auto;
+}
+
+main .Service-Process ul li {
+	width: 224px;
+	height: 100px;
+	float: left;
+	background: url(../img/边框.gif) no-repeat;
+	margin-left: 13px;
+	color: #D04362;
+	line-height: 50px;
+	text-align: center;
+	font-size: 26px;
+}

@@ -1,0 +1,84 @@
+main .press-center {
+	width: 1600px;
+	height: 740px;
+	margin: 50px auto;
+	position: relative;
+	font-family: "方正姚体";
+}
+
+main .nav ul {
+	width: 200px;
+	height: 420px;
+	background: #454c52;
+	margin-left: 230px;
+	float: left;
+}
+
+main .nav ul li {
+	width: 200px;
+	height: 60px;
+	overflow: hidden;
+}
+
+main .nav ul li:nth-child(1) {
+	height: 200px;
+	background: url(../img/手捧花.jpg) no-repeat center center/270px;
+}
+
+main .nav ul li a {
+	display: block;
+	width: 200px;
+	height: 60px;
+	text-align: center;
+	text-decoration: none;
+	color: #f27d8d;
+	line-height: 60px;
+}
+
+main .nav ul li a:hover {
+	background: #f27d8d;
+	color: #fff;
+	transition: all 0.3s;
+}
+
+#color4 {
+	background: #f27d8d;
+	color: #fff;
+}
+
+main .press-center .content5 {
+	width: 830px;
+	height: 620px;
+	border: 5px solid#454c52;
+	float: left;
+	margin-left: 40px;
+	padding: 50px;
+}
+
+main .press-center .content5 p {
+	margin-bottom: 65px;
+}
+
+main .press-center .content5 span {
+	display: inline-block;
+	margin: 20px 0px 0px 20px;
+	font-size: 14px;
+	color: #666;
+	line-height: 30px;
+}
+
+main .press-center .content5 img {
+	width: 160px;
+	height: 130px;
+	float: left;
+}
+
+main .press-center .content5 a {
+	text-decoration: none;
+	color: #D04362;
+	padding-left: 20px;
+}
+
+main .press-center .content5 a:hover {
+	text-decoration: underline;
+}

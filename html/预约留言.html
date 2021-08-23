@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8" />
+	<title>预约留言</title>
+	<link rel="stylesheet" href="../css/顶部与底部共同样式.css" />
+	<link rel="stylesheet" href="../css/预约留言.css" />
+</head>
+
+<body>
+	<header>
+		<p><img src="../img/边框2-2.jpg" /></p>
+		<ul>
+			<li><a href="index.html">首页</a></li>
+			<li><a href="关于我们.html">关于我们</a></li>
+			<li>
+				<a href="婚庆套餐.html">婚庆套餐</a>
+			</li>
+			<li class="white"><a href="#.html">我是凑数</a></li>
+			<li class="white"><a href="#.html">我是凑数</a></li>
+			<li>
+				<a href="新闻中心.html">新闻中心</a>
+			</li>
+			<li><a href="服务团队.html">服务团队</a></li>
+			<li>
+				<a href="联系我们.html">联系我们</a>
+				<ol>
+					<li><a href="预约留言.html" class="color">预约留言</a></li>
+				</ol>
+			</li>
+		</ul>
+	</header>
+	<div class="banner2">
+		<p>预约留言</p>
+	</div>
+	<main>
+		<p class="weizhi">
+			您的位置：<a href="首页.html">首页</a>-->
+			<a href="联系我们.html">联系我们</a>-->
+			<a href="预约留言.html">预约留言</a>
+		</p>
+		<img src="../img/images/气球.gif" class="qiqiu" />
+		<div class="order">
+			<h1>RESERVATION MESSAGE</h1>
+			<p class="p111">预约留言</p>
+			<form>
+				<fieldset>
+					<legend>说出你的想法，我们为你打造最美婚礼</legend>
+					婚礼日期：<input type="date" required="required" /><br />
+					婚礼地点：<input type="text" list="ctype" name="khlx" class="textbox">
+					<datalist id="ctype">
+						<option>北京</option>
+						<option>上海</option>
+						<option>深圳</option>
+						<option>其他</option>
+					</datalist><br />
+					婚礼预算：
+					<input type="radio" name="1" class="radio" />1.5万以下
+					<input type="radio" name="1" class="radio" />1.5-3万
+					<input type="radio" name="1" class="radio" />3-5万
+					<input type="radio" name="1" class="radio" />5-10万
+					<input type="radio" name="1" class="radio" />10万以上<br />
+					注意事项：
+					<textarea rows="6" cols="75"></textarea><br />
+					您的姓名：<input type="text" required="required" /><br />
+					您的手机：<input type="text" required="required" /><br />
+					<input type="submit" value="立即提交" class="submit" />
+				</fieldset>
+			</form>
+		</div>
+	</main>
+	<footer>
+		<ul>
+			<li><a href="index.html">首页</a></li>
+			<li><a href="关于我们.html">关于我们</a></li>
+			<li><a href="婚庆套餐.html">婚庆套餐</a></li>
+			<li><a href="新闻中心.html">新闻中心</a></li>
+			<li><a href="服务团队.html">服务团队</a></li>
+			<li><a href="联系我们.html">联系我们</a></li>
+		</ul>
+		<br />
+		<p>电话：(00852)1234xxxx</p>
+		<p>传真：(00852)1234xxxx</p>
+		<p>地址：北京市某某区某某路71号某某国际1210室</p>
+		<p>Copyright 2019 爱度婚庆策划有限公司 版权所有 All Rights Reserved ICP备215421​XX号</p>
+	</footer>
+	<script>
+		/*提交表单*/
+		window.onload = function () {
+			onsubmit = function () {
+				alert("预约成功");
+			}
+		}
+	</script>
+</body>
+
+</html>
